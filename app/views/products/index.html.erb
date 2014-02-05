@@ -2,10 +2,12 @@
 
 
 <% @products.each do |p| %>
+  <%= p.id %>
   <%= p.name %></br>
   <%= p.description %><br>
   <%= p.formatted_price %>
 <% end %>
+
 
 
 
